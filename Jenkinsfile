@@ -3,9 +3,9 @@ pipeline {
 
     environment {
         EC2_USER = 'ec2-user'
-        EC2_HOST = '16.170.231.171'
-        PRIVATE_KEY_PATH = 'C:/Users/Success/Downloads/electric-key.pem'
-        IMAGE_NAME = 'new-dockerhub-electricaa'
+        EC2_HOST = '3.91.102.37'
+        PRIVATE_KEY_PATH = 'C:\Users\USER\Downloads\electricca-key.pem'
+        IMAGE_NAME = 'electricca'
         IMAGE_TAG = "build-${env.BUILD_NUMBER}"
         GIT_REPO = 'https://github.com/Success-C-Opara/electric-001.git'
         BRANCH_NAME = 'main'
