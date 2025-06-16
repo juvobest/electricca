@@ -7,7 +7,7 @@ pipeline {
         PRIVATE_KEY_PATH = 'C:\Users\USER\Downloads\electricca-key.pem'
         IMAGE_NAME = 'electricca'
         IMAGE_TAG = "build-${env.BUILD_NUMBER}"
-        GIT_REPO = 'https://github.com/Success-C-Opara/electric-001.git'
+        GIT_REPO = 'https://github.com/juvobest/electricca.git'
         BRANCH_NAME = 'main'
         GIT_BASH = '"C:\\Program Files\\Git\\bin\\bash.exe" -c'
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub-creds'
