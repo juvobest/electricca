@@ -4,7 +4,7 @@ pipeline {
     environment {
         EC2_USER = 'ec2-user'
         EC2_HOST = '3.91.102.37'
-        PRIVATE_KEY_PATH = 'C:\Users\USER\Downloads\electricca-key.pem'
+        PRIVATE_KEY_PATH = 'C:/Users/USER/Downloads/electricca-key.pem'
         IMAGE_NAME = 'electricca'
         IMAGE_TAG = "build-${env.BUILD_NUMBER}"
         GIT_REPO = 'https://github.com/juvobest/electricca.git'
